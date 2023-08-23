@@ -7,7 +7,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 6vw;
+  font-size: 76px;
   margin-block: 0;
 }
 
@@ -44,7 +44,9 @@ h1 {
 .player {
   transform: scale(var(--rot), 1);
   width: 35vw;
+  max-width: 400px;
   height: 35vw;
+  max-height: 400px;
   background-size: 100%;
   background-image: url(img/hand_rock.png);
 }
@@ -131,7 +133,9 @@ h1 {
   background-size: 100%;
   border-radius: 10vw;
   width: 10vw;
+  max-width: 130px;
   height: 10vw;
+  max-height: 130px;
   transition: filter 0.8s;
 }
 
